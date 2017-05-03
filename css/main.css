@@ -9,7 +9,6 @@ td {
 }
 
 .X {
-  /*display: none;*/
   color: red;
   font-size: 200px;
   display: inline-block;
@@ -17,8 +16,16 @@ td {
 }
 
 .O {
-  display: none;
   color: blue;
   font-size: 200px;
-  /*display: inline-block;*/
+  display: inline-block;
+  margin: auto;
+}
+
+.show {
+  display: inline-block;
+}
+
+.hide {
+  display: none;
 }
