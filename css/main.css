@@ -1,0 +1,24 @@
+.gamecell {
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+}
+
+td {
+  border: 5px solid black;
+}
+
+.X {
+  /*display: none;*/
+  color: red;
+  font-size: 200px;
+  display: inline-block;
+  margin: auto;
+}
+
+.O {
+  display: none;
+  color: blue;
+  font-size: 200px;
+  /*display: inline-block;*/
+}
