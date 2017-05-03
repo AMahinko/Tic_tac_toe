@@ -1,10 +1,13 @@
 var isX = true;
 
-var xShow =
 $(".gamecell").click(function() {
   var tgt = $(event.target);
+  if (tgt.is('p')){
+    return false;
+  }
   tgt.html(setCell);
   playerSwitch();
+  tgt.attr('class', 'gamecellClicked');
 })
 
 
