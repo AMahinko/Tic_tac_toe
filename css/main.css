@@ -29,3 +29,17 @@ td {
 .hide {
   display: none;
 }
+
+.gamecellClicked {
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+}
+
+#xwin_message {
+  color: red;
+}
+
+#owin_message {
+  color: blue;
+}
