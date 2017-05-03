@@ -6,6 +6,7 @@ $(".gamecell").click(function() {
     return false;
   }
   tgt.html(setCell);
+  setScore();
   playerSwitch();
   tgt.attr('class', 'gamecellClicked');
 })
@@ -32,3 +33,15 @@ function setCell() {
     return "<p class = 'O'> O </p>"
   }
 }
+
+function setScore() {
+  if (isX === true){
+    Xscore.push(event.target.id);
+  }
+  else {
+    Oscore.push(event.target.id);
+  }
+}
+
+var Xscore = [];
+var Oscore = [];
