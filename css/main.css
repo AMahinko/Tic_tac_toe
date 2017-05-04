@@ -19,14 +19,18 @@ td {
 .X {
   color: red;
   font-size: 200px;
-  display: inline-block;
+  text-align: center;
+  font-family: sans-serif;
+  /*display: inline-block;*/
   margin: auto;
 }
 
 .O {
   color: blue;
   font-size: 200px;
-  display: inline-block;
+  font-family: sans-serif;
+  /*display: inline-block;*/
+  text-align: center;
   margin: auto;
 }
 
