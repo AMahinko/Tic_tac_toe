@@ -1,3 +1,11 @@
+
+
+.gameboard {
+  margin:auto;
+  /*display: inline-block;*/
+  max-width: 33%;
+}
+
 .gamecell {
   width: 200px;
   height: 200px;

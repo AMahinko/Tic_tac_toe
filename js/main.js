@@ -100,7 +100,7 @@ function winCheck() {
   if (score["1x1"] + score['2x2'] + score ['3x3'] == 3) {
     xWin();
   }
-  else if (score["1x3"] + score['2x2'] + score ['1x3'] == 3) {
+  else if (score["3x1"] + score['2x2'] + score ['1x3'] == 3) {
     xWin();
   }
   ///
@@ -126,7 +126,7 @@ function winCheck() {
   if (score["1x1"] + score['2x2'] + score ['3x3'] == 30) {
     oWin();
   }
-  else if (score["1x3"] + score['2x2'] + score ['1x3'] == 30) {
+  else if (score["3x1"] + score['2x2'] + score ['1x3'] == 30) {
     oWin();
   }
 }
